@@ -15,11 +15,11 @@ E:/Kyle's Stuff/Gits/Repos/Entity-March-Dream-Remastered
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60886
+50724
 Successfully changed project path to: E:/Kyle's Stuff/Gits/Repos/Entity-March-Dream-Remastered
 E:/Kyle's Stuff/Gits/Repos/Entity-March-Dream-Remastered
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 288.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.9f1 (7a790e367ab3)
 [Subsystems] Discovering subsystems at path E:/Unity Editors/2021.1.9f1/Editor/Data/Resources/UnitySubsystems
@@ -36,7 +36,7 @@ Initialize mono
 Mono path[0] = 'E:/Unity Editors/2021.1.9f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity Editors/2021.1.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity Editors/2021.1.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity Editors/2021.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -44,37 +44,37 @@ Register platform support module: E:/Unity Editors/2021.1.9f1/Editor/Data/Playba
 Register platform support module: E:/Unity Editors/2021.1.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: E:/Unity Editors/2021.1.9f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: E:/Unity Editors/2021.1.9f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.065558 seconds.
+Registered in 0.004170 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 100.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  8.615 seconds
+- Completed reload, in  4.069 seconds
 Domain Reload Profiling:
-	ReloadAssembly (8615ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (4069ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (558ms)
-			LoadAssemblies (143ms)
+		EndReloadAssembly (481ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (205ms)
+			SetupTypeCache (171ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (239ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (234ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (101ms)
+				RefreshPlugins (100ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadAttributes (93ms)
 				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -82,4 +82,186 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.359809 seconds.
+Registered in 0.004366 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Kyle's Stuff\Gits\Repos\Entity-March-Dream-Remastered\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Kyle's Stuff\Gits\Repos\Entity-March-Dream-Remastered\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 98.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.364 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1364ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1120ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (377ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (499ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4420 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.2 MB.
+System memory in use after: 168.4 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4865.
+Total: 3.657700 ms (FindLiveObjects: 0.473000 ms CreateObjectMapping: 0.257400 ms MarkObjects: 2.843300 ms  DeleteObjects: 0.082500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Textures/Itch Data
+  artifactKey: Guid(005d8c6460a7cc54286b5540a4ca3375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Itch Data using Guid(005d8c6460a7cc54286b5540a4ca3375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6153d2456c09cdccc800df5baa77a4b0') in 0.011651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.195397 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(2c3c6fc48b69a42469088f675508f054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(2c3c6fc48b69a42469088f675508f054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f0b28c456d095bbe4d5d2dc09abc90') in 0.005748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.970114 seconds.
+  path: Assets/Scenes/Intro.unity
+  artifactKey: Guid(1184d142e60456b429c1acf8e1daf4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Intro.unity using Guid(1184d142e60456b429c1acf8e1daf4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5c10b142d6d06b7e344263cf3dbff3') in 0.014404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.162535 seconds.
+  path: Assets/Textures/Itch Data/Icon Sizes/8x8.png
+  artifactKey: Guid(81102613f34ee9a459a45329701763ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Itch Data/Icon Sizes/8x8.png using Guid(81102613f34ee9a459a45329701763ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cca88368309a735b33642ddc6c9369d') in 0.111085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/Textures/Itch Data/Icon Sizes/256x256.png
+  artifactKey: Guid(1776e2a77556e7c49a4f7f03ebe834d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Itch Data/Icon Sizes/256x256.png using Guid(1776e2a77556e7c49a4f7f03ebe834d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6b75099e9be9ca8237176da6558942') in 0.031705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Textures/Itch Data/Icon Sizes/32x32.png
+  artifactKey: Guid(3435c36489457514fb6acb6d007193f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Itch Data/Icon Sizes/32x32.png using Guid(3435c36489457514fb6acb6d007193f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c933210fcdcb40811c5988cc54786e') in 0.018409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Textures/Itch Data/Icon Sizes/64x64.png
+  artifactKey: Guid(22c44ea8cac6bd4419e725736694fc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Itch Data/Icon Sizes/64x64.png using Guid(22c44ea8cac6bd4419e725736694fc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1876f48eb00f08176af96ec2d18832a') in 0.020292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Textures/Itch Data/Icon Sizes/48x48.png
+  artifactKey: Guid(0bcff5fd1cd197e46b3b5de3aaf812ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Itch Data/Icon Sizes/48x48.png using Guid(0bcff5fd1cd197e46b3b5de3aaf812ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f07088b349b1f187d86e54d383f1407') in 0.040137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000661 seconds.
+  path: Assets/Textures/Itch Data/Icon Sizes/16x16.png
+  artifactKey: Guid(c4b84f7ba1c282b419c4af667e9db408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Itch Data/Icon Sizes/16x16.png using Guid(c4b84f7ba1c282b419c4af667e9db408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147a201f07daea3a97a087c61b19bfb8') in 0.021092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000711 seconds.
+  path: Assets/Textures/Itch Data/Icon Sizes/128x128.png
+  artifactKey: Guid(dd00d80664786d0408b419247b02ce46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Itch Data/Icon Sizes/128x128.png using Guid(dd00d80664786d0408b419247b02ce46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36362c584e1cecf3fd89aa2ef69cf548') in 0.022048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.448171 seconds.
+  path: Assets/Fonts/Roboto-Regular.ttf
+  artifactKey: Guid(22062d623a35e0143be7e6d716cf029c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Roboto-Regular.ttf using Guid(22062d623a35e0143be7e6d716cf029c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d10b892da137a80193199a8c37180e') in 0.105588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.952934 seconds.
+  path: Assets/Textures/Itch Data/Screenshots/screenshot 1.png
+  artifactKey: Guid(e8021b0773fadc24cbbe1bfa9c9e8b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Itch Data/Screenshots/screenshot 1.png using Guid(e8021b0773fadc24cbbe1bfa9c9e8b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a4ae55aa1e6b2c285f4b7028b3a8ef') in 0.104209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Textures/Itch Data/Screenshots/screenshot 2.png
+  artifactKey: Guid(ad281ac280b92f440ba252fb8042472a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Itch Data/Screenshots/screenshot 2.png using Guid(ad281ac280b92f440ba252fb8042472a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166ef7edced61c7ae8d08982dbd82dab') in 0.100139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Textures/Itch Data/Screenshots/screenshot 3.png
+  artifactKey: Guid(a2bd6c0c8ada2ba42bfb6dd7f552fdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Itch Data/Screenshots/screenshot 3.png using Guid(a2bd6c0c8ada2ba42bfb6dd7f552fdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e50e29131fd936147b91f744a44e3cc') in 0.101634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.555822 seconds.
+  path: Assets/Scenes/Title Screen.unity
+  artifactKey: Guid(bc79cd0e746f36e4ba84c77536b6a85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title Screen.unity using Guid(bc79cd0e746f36e4ba84c77536b6a85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3523e49ca3652fd1c429060333c97a9f') in 0.006504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 135.408312 seconds.
+  path: Assets/Scenes/LevelSelect.unity
+  artifactKey: Guid(45c66cea800c4c14fb9ccfbba26095ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelSelect.unity using Guid(45c66cea800c4c14fb9ccfbba26095ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5637bbadb36c777fb762359e001b4f') in 0.008181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.626494 seconds.
+  path: Assets/Scenes/Levels
+  artifactKey: Guid(efb7b13a0a673cd4fa43dc59012db353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels using Guid(efb7b13a0a673cd4fa43dc59012db353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5027a123edf1c3c700d93a3ec7132a') in 0.005517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.722133 seconds.
+  path: Assets/Scenes/Levels/Death 1.unity
+  artifactKey: Guid(468c72d503ef9134fb0544652448a4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Death 1.unity using Guid(468c72d503ef9134fb0544652448a4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab2e4ad5ebed256d0409bda0b41aa33') in 0.005830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.505355 seconds.
+  path: Assets/Scenes/Levels/Death 2.unity
+  artifactKey: Guid(260389ef04c3ed14cb9901fc857eb5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Death 2.unity using Guid(260389ef04c3ed14cb9901fc857eb5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdb4e341de5ce420c30127a56d909c1') in 0.005781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.411308 seconds.
+  path: Assets/Scenes/Levels/Death 3.unity
+  artifactKey: Guid(7129ca410eaf51f488080dc89fa0c159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Death 3.unity using Guid(7129ca410eaf51f488080dc89fa0c159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952bb0a204af57f1263508a85a5a4757') in 0.005686 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
