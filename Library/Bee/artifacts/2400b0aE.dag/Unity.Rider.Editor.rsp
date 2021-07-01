@@ -107,7 +107,7 @@
 -define:TEST_FRAMEWORK
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/Users/kyley/OneDrive/Desktop/Coding/Projects/C-sharp/Unity/Entity March Dream/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"E:/Kyle's Stuff/Gits/Repos/Entity-March-Dream-Remastered/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"E:/Unity Editors/2021.1.9f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"E:/Unity Editors/2021.1.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"E:/Unity Editors/2021.1.9f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
